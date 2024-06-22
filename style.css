@@ -1,0 +1,170 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    background: linear-gradient(155deg, #e857d7, #ff9a8b, #ff6f61, #ffa07a, #ffb347, #ffd700);
+}
+
+header h1, p {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background: linear-gradient(155deg, #e857d7, #ff9a8b, #ff6f61, #ffa07a, #ffb347, #ffd700);
+}
+
+.container h1 {
+    text-align: center; /* Center align text */
+    margin-bottom: 30px ;/* Add some bottom margin for separation */
+    position: relative;
+    transform: translateX(100%);
+}
+
+.container p {
+    text-align: center;
+    top: calc(100% + 40px);
+    left: 50%;   
+    transform: translateX(-60%);
+    width: max-content;
+    padding-top: 70px;
+    /* border-top: 2px solid black; */
+    top: calc(100% + 10px);
+    /* position: absolute; */
+    position: -100px;
+}
+
+#registrationForm{
+    height: 100%;
+    max-height: 0lvh;
+}
+
+.box{
+    width:55px ;
+    border: 4px solid green;
+    height: 900px;
+    color: black;
+    background: black;
+}
+
+/* Box styles */
+.box, .box3 {
+    background: linear-gradient(60deg, #e857d7 0%, #ff9a8b 20%, #ff6f61 40%, #ffa07a 60%, #ffb347 80%, #ffd700 100%);
+    border: 5px solid #ddd;
+    border-radius: 25px;
+    margin: 9px;
+    width: 500px;
+    padding: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 515px;
+}
+
+/* Form styles */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+#studentTable, #studentList{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(223, 8, 8);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #09e60dc6;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Scrollbar styles */
+.box3 {
+    max-height: 300px;
+    overflow-y: auto;
+    width: 800px;
+}
+
+
+.box3 h2 {
+    text-align: center;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+
+
+/* Button styles */
+.edit-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.edit-btn:hover {
+    background-color: darkblue;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
